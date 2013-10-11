@@ -1,0 +1,40 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 17px;
+	font-weight: 100;
+}
+
+.section1, .section2, .section3 {
+	height: 600px;
+	position: absolute;
+	width: 100%;
+}
+
+.section1 {
+	background: white url(http://images.apple.com/ca/fr/macbook-pro/design-retina/images/hero.png) no-repeat fixed 400px 300px;
+	top: 0px;
+}
+
+.section2 {
+	background: #eee url(http://images.apple.com/ca/fr/macbook-pro/design/images/hero.png) no-repeat fixed 50px 400px;
+	top: 600px;
+}
+
+.section3 {
+	background: white url(http://images.apple.com/ca/fr/macbook-pro/design/images/strength.jpg) no-repeat fixed 400px 460px;
+	top: 1200px;
+}
+
+.bloc-left {
+	padding: 100px 0px 0px 50px;
+	width: 255px;
+	text-align: justify;
+}
+
+.bloc-right {
+	float: right;
+	padding: 100px 100px 0px 0px;
+	width: 255px;
+	text-align: justify;
+}
